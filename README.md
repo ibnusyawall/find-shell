@@ -36,6 +36,3 @@ $ node index
 <pre>0.0.1</pre>
 
 #### pliese submit issue if found bug
-
-
-support by ::silentGhostTeam
