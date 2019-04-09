@@ -15,7 +15,7 @@ warna.setTheme({
   a: ['white', 'bgBlue'],
   b: 'red', c: 'yellow',
   d: 'blue', e: 'green'
-})
+});
 
 tampil = shell.echo; jalan = shell.exec;
 
