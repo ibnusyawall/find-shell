@@ -38,7 +38,7 @@ tampil('');
 tanya.question(' ['.c + '?' + '] '.c + '[FShELL] > ', (pilih) => {
   if (`${pilih}` == 1 || `${pilih}` == 01) {
     tampil(''); tampil(' |----------| ----- |----------|'); tampil('');
-    tanya.question(' ['.c + '!' + '] '.c + 'Donain Name : ', (domain) => {
+    tanya.question(' ['.c + '!' + '] '.c + 'Domain Name : ', (domain) => {
       tanya.question(' ['.c + '!' + '] '.c + 'Shell Name  : ', (shel) => {
         const baris = readl.createInterface({
           input : bacaf.createReadStream('payload.txt'),
@@ -60,7 +60,7 @@ tanya.question(' ['.c + '?' + '] '.c + '[FShELL] > ', (pilih) => {
               tampil(` DOMAIN NAME   : ${domain}`);
               tampil(` SHELL NAME    : ${shel}`  );
               tampil(` USING PAYLOAD : ${line}`  );
-              tampil(' STATUS        : ' + 'NOT FOUBD SHELL BACKDOOR'.b)
+              tampil(' STATUS        : ' + 'NOT FOUND SHELL BACKDOOR'.b)
              }
            });
         }); tanya.close();
@@ -90,7 +90,7 @@ tanya.question(' ['.c + '?' + '] '.c + '[FShELL] > ', (pilih) => {
      tampil(''); tampil('  |-------- about me -------|   ');
      tampil(''); tampil('       Name  : Ibnu Syawal       ');
      tampil('       Title : ShellFinder       ');
-     tampil('       407 AUTHENTIC EXPLOIT');
+     tampil('      407 AUTHENTIC EXPLOIT');
      tampil(''); tampil('  |-------- about me -------|   '); tanya.close();
   } else if (`${pilih}` == 00 || `${pilih}` == 0) {
      tampil(''); tampil('     ['.b + '   Thanks for using this tools ^_^   ' + ']'.b);
