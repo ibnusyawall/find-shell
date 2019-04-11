@@ -7,3 +7,12 @@
 /upload/images/
 /admin/images/
 /upload/
+/img/
+/admin/banner/
+/adm/banner/
+/slider/
+/admin/image/
+/images/
+/files/
+/uploaded/
+/bner/
